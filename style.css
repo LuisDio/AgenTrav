@@ -20,6 +20,16 @@
      font-size: 55px;
  }
 
+ h4 {
+     font-size: 24px;
+     color: #444;
+ }
+
+ p {
+    line-height: 20px;
+    color: #777;
+ }
+
  ul {
      list-style: none;
  }
@@ -108,7 +118,13 @@ header nav ul li a {
 }
 
 #steps ul li {
+    width: 300px;
+    float: left;
+}
 
+#steps h4 {
+    text-transform: uppercase;
+    
 }
 
 #step-1 {
@@ -120,7 +136,7 @@ header nav ul li a {
 }
 
 #step-3 {
-    
+
 }
 
 
